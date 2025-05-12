@@ -69,6 +69,11 @@ const (
 	EndpointsTypeHostIP         = "HostIP"
 )
 
+const (
+	ServicePodEndpointsPodName      = "pod-name"
+	ServicePodEndpointsFqdnTemplate = "fqdn-template"
+)
+
 // Provider-specific annotations
 const (
 	// The annotation used for determining if traffic will go through Cloudflare
