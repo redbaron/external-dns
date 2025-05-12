@@ -60,6 +60,8 @@ const (
 	controllerAnnotationValue = "dns-controller"
 	// The annotation used for defining the desired hostname
 	internalHostnameAnnotationKey = "external-dns.alpha.kubernetes.io/internal-hostname"
+	// Create endpoint for each pod in the service.
+	servicePodEndpointsKey = "external-dns.alpha.kubernetes.io/service-pod-endpoints"
 )
 
 const (
