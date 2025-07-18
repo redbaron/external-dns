@@ -63,6 +63,8 @@ ExternalDNS allows you to keep selected zones (via `--domain-filter`) synchroniz
 - [GoDaddy](https://www.godaddy.com)
 - [Gandi](https://www.gandi.net)
 - [IBM Cloud DNS](https://www.ibm.com/cloud/dns)
+- [TencentCloud PrivateDNS](https://cloud.tencent.com/product/privatedns)
+- [TencentCloud DNSPod](https://cloud.tencent.com/product/cns)
 - [Plural](https://www.plural.sh/)
 - [Pi-hole](https://pi-hole.net/)
 - [Alibaba Cloud DNS](https://www.alibabacloud.com/help/en/dns)
@@ -154,6 +156,7 @@ The following table clarifies the current status of the providers according to t
 | Scaleway DNS                    | Alpha  | @Sh4d1           |
 | GoDaddy                         | Alpha  |                  |
 | Gandi                           | Alpha  | @packi           |
+| TencentCloud                    | Alpha  | @Hyzhou          |
 | Plural                          | Alpha  | @michaeljguarino |
 | Pi-hole                         | Alpha  | @tinyzimmer      |
 | Alibaba Cloud DNS               | Alpha  |                  |
@@ -216,6 +219,7 @@ The following tutorials are provided:
 - [GoDaddy](docs/tutorials/godaddy.md)
 - [Gandi](docs/tutorials/gandi.md)
 - [Nodes as source](docs/sources/nodes.md)
+- [TencentCloud](docs/tutorials/tencentcloud.md)
 - [Plural](docs/tutorials/plural.md)
 - [Pi-hole](docs/tutorials/pihole.md)
 
