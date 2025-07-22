@@ -53,6 +53,8 @@ type kubeObject interface {
 func ExecTemplate(tmpl *template.Template, obj kubeObject) ([]string, error) {
 	if obj == nil {
 		return nil, fmt.Errorf("object is nil")
+	} else if tmpl == nil {
+		return nil, fmt.Errorf("FQDN template is nil")
 	}
 	var buf bytes.Buffer
 	if err := tmpl.Execute(&buf, obj); err != nil {
